@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="ClearNext turns dense notices into one clear, editable next step. Private and local-first.">
+<title>ClearNext — make the next step clear</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="topbar"><a class="brand-lockup" href="https://randomvibez.ai/" aria-label="RandomVibez.ai home"><img class="brand-logo" src="randomvibez-logo.jpg" alt="RandomVibez.ai"><span class="brand">ClearNext</span></a><div class="privacy-pill"><span aria-hidden="true">●</span> Stays on this device</div></header>
+<main id="main">
+<section class="hero" aria-labelledby="title"><div class="hero-copy"><p class="eyebrow">A calmer way through paperwork</p><h1 id="title">Make the next step clear.</h1><p class="lead">Paste a letter, message, or notice. ClearNext pulls out what matters, shows what is certain, and gives you one useful action to start with.</p><div class="trust-row"><span>✓ No account</span><span>✓ No uploads</span><span>✓ You stay in control</span></div></div><aside class="safety-note"><strong>Important</strong><p>This is a reading and planning aid, not legal, medical, financial, or emergency advice. Do not enter passwords, full account numbers, or government IDs.</p></aside></section>
+<section class="workspace" aria-label="Notice workspace">
+<div class="input-panel panel"><div class="panel-heading"><div><p class="eyebrow">Step 1</p><h2>Bring in the notice</h2></div><button id="clearAll" class="text-button" type="button">Delete all saved cards</button></div>
+<div class="samples" aria-label="Try an example"><span class="label">Try an example:</span><button class="chip" type="button" data-sample="utility">Utility bill</button><button class="chip" type="button" data-sample="school">School notice</button><button class="chip" type="button" data-sample="renewal">Renewal letter</button></div>
+<label for="sourceText">Paste the text here</label><textarea id="sourceText" rows="11" maxlength="12000" placeholder="Paste the body of an email or letter…"></textarea>
+<div class="input-actions"><button id="makeCard" class="primary" type="button">Make my next step <span aria-hidden="true">→</span></button><label class="file-button" for="fileInput">Open .txt or .html file<input id="fileInput" type="file" accept=".txt,.html,.htm,text/plain,text/html"></label></div>
+<p id="inputHint" class="hint">Text is processed in your browser. Files stay on this device and are not uploaded.</p><div id="status" class="status" role="status" aria-live="polite"></div></div>
+<div class="result-panel panel" aria-labelledby="cards-heading"><div class="panel-heading"><div><p class="eyebrow">Step 2</p><h2 id="cards-heading">Your action cards</h2></div><span id="cardCount" class="count">0 saved</span></div><div id="cards" class="cards"><div class="empty-state"><div class="empty-icon" aria-hidden="true">✦</div><h3>Your next step will appear here</h3><p>Start with an example or paste a notice. You can edit anything ClearNext finds.</p></div></div></div>
+</section>
+<section class="how-it-works"><p class="eyebrow">Built for real life</p><h2>Clarity without handing over your data.</h2><div class="principles"><article><span class="number">01</span><h3>Evidence first</h3><p>Every suggestion stays connected to the words that led to it.</p></article><article><span class="number">02</span><h3>Uncertainty is visible</h3><p>Dates are marked as stated, found in text, or not found. Nothing is silently invented.</p></article><article><span class="number">03</span><h3>One step at a time</h3><p>See one useful action first. Edit, print, export, or delete whenever you want.</p></article></div></section>
+<section class="source-note"><h2>What ClearNext does not do</h2><p>It does not contact anyone, submit forms, make payments, decide whether a notice is valid, or replace professional advice. If a message says you are in immediate danger, contact local emergency services directly.</p><p class="small">Your cards are saved in this browser only. Browser storage is not encryption. Use the delete control on shared devices.</p></section>
+</main>
+<footer class="project-footer"><a href="https://randomvibez.ai/" class="project-footer-brand"><img src="randomvibez-logo.jpg" alt=""><strong>A RandomVibez.ai Project</strong></a><p>ONLINE TOOLS. BUILT BY AI. FOR EVERYONE.</p><p><a href="https://randomvibez.ai/">Explore more projects at randomvibez.ai</a></p><span>ClearNext · local-first utility</span><button id="exportAll" class="text-button" type="button">Export backup</button><label class="import-button">Import backup<input id="importInput" type="file" accept="application/json,.json"></label></footer>
+<script src="app.js" defer></script>
+</body></html>
