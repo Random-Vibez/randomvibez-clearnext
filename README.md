@@ -1,6 +1,6 @@
 # ClearNext — RandomVibez.ai public-safe edition
 
-ClearNext is a browser-local reading and planning aid: paste a notice, extract a bounded summary/date, and keep an editable action card. This directory is a separate static edition; the original `/home/tomf/clearnext` is preserved and untouched.
+ClearNext is a browser-local reading and planning aid: paste a notice, extract a bounded summary/date, and keep an editable action card. This directory is a separate static edition; the original `/srv/example-app/original-clearnext` is preserved and untouched.
 
 ## Boundary
 
